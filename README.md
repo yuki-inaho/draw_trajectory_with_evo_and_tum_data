@@ -8,7 +8,8 @@ And I experienced below error occurred when loading raw trajectory file (like ca
 [ERROR] TUM trajectory files must have 8 entries per row and no trailing delimiter at the end of the rows (space)
 ```
 
-Then I referred and follow the processes written on https://github.com/MichaelGrupp/evo/issues/218. And the problem is solved. i.e.
+Then I referred and follow the processes written on https://github.com/MichaelGrupp/evo/issues/218.
+And the problem is solved. i.e.
 ```
 cd ./tum && cut --delimiter " " --fields 1-8 cam0_gt_raw.txt > cam0_gt.txt && cd ..
 ```
