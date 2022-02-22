@@ -14,3 +14,5 @@ And the problem is solved. i.e.
 cd ./tum && cut --delimiter " " --fields 1-8 cam0_gt_raw.txt > cam0_gt.txt && cd ..
 ```
 and remove the empty lines on cam0_gt.txt.
+
+![trajectory](https://github.com/yuki-inaho/draw_trajectory_with_evo_and_tum_data/blob/main/doc/traj.png)
